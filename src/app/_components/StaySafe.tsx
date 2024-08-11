@@ -6,9 +6,9 @@ const StaySafe: React.FC = () => {
       {/* <h2 className="text-center text-3xl lg:text-5xl font-bold text-gray-900 mb-10 lg:mb-16">
         Stay <span className="text-blue-600">safe</span> while you browse
       </h2> */}
-      <h1 className="text-center text-6xl mb-10 font-bold mb-20">
-      Stay <span className="text-red-500"><Image src="/staySafe.svg" width={100} height={100} alt="staySafe" className="inline-block w-6 h-6" /> safe</span><br /> while you browse
-            </h1>
+      <h2 className="text-center text-2xl lg:text-6xl font-bold text-gray-900 mb-20">
+        Stay <span className="text-center text-5xl text-blue-700 inline-block mb-2 rounded-full space-x-1 px-2 pr-6 bg-[#E8F0FE]"><Image src="/staySafe.svg" width={70} height={70} alt="Yours Icon" className="inline-block" />safe </span><  br/> while you browse
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
         <div className="relative h-[500px] bg-[#1A73E8] p-12 rounded-lg shadow-md">
         <h3 className="text-4xl font-bold text-white mb-12">Use strong password on every site.</h3>          <div className="flex items-center justify-center">
