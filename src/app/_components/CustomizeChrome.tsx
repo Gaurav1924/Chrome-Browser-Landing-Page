@@ -8,7 +8,7 @@ const CustomiseChrome: React.FC = () => {
       </div>
       <div className="w-full lg:w-1/2 mt-10 lg:mt-0 lg:pl-20">
         <h2 className="text-xl lg:text-3xl font-extrabold text-gray-900">Customise your<br/> Chrome</h2>
-        <p className="mt-4 text-xl text-gray-700">
+        <p className="mt-4 text-xl text-[#5f6368]">
           Personalise your web browser <br />with themes, dark mode, and other<br/> options built just for you.
         </p>
         <a href="#" className="mt-6 inline-block text-blue-600 hover:underline text-lg font-medium">

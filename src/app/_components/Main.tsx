@@ -20,7 +20,7 @@ const ChromePromo: React.FC = () => {
       </h1>
 
       {/* Button Links */}
-      <div className="p-2 shadow-lg border-gray-300 rounded-full flex justify-center my-8 space-x-5 text-lg">
+      <div className="font-bold p-2 shadow-lg border-gray-300 rounded-full flex justify-center my-8 space-x-5 text-medium text-[#5f6368]">
         {['Updates', 'Yours', 'Safe', 'Fast', 'By Google'].map((text) => (
           <div
             key={text}
