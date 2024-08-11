@@ -68,9 +68,11 @@ function ParallaxImage({ images }: ParallaxProps) {
 
 export default function ImageScrollAnimation() {
   const images = [
-    "/chrome-gallery-2.webp",  // First Image
-    "/chrome-gallery-3.webp",  // Second Image
-    "/chrome-gallery-4.webp",  // Third Image
+    "/chrome-gallery-4.webp",
+    "/chrome-gallery-2.webp", 
+    "/chrome-gallery-3.webp", 
+    "/chrome-gallery-1.webp",
+    
   ];
 
   return (

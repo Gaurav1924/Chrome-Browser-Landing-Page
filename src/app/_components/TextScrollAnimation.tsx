@@ -41,14 +41,15 @@ function ParallaxText({ children, baseVelocity = 50 }: ParallaxProps) {
       baseX.set(baseX.get() + moveBy * 0.2); // Reduced multiplier to slow down the movement
     }
   });
-  const images = ["/chrome-gallery-2.webp","/chrome-gallery-3.webp","/chrome-gallery-4.webp","/chrome-gallery-5.webp"] ;
+  const images = ["/chrome-gallery-1.webp","/chrome-gallery-4.webp","/chrome-gallery-3.webp","/chrome-gallery-2.webp","/chrome-gallery-5.webp"] ;
   return (
     <div className="parallax">
       <motion.div className="scroller" style={{ x }}>
-        <span><img src={images[1]} alt="" /></span>
-        <span><img src={images[0]} alt="" /> </span>
-        <span><img src={images[2]} alt="" /> </span>
         <span><img src={images[3]} alt="" /> </span>
+        <span><img src={images[1]} alt="" /></span>
+        <span><img src={images[4]} alt="" /> </span>
+        <span><img src={images[2]} alt="" /> </span>
+        <span><img src={images[0]} alt="" /> </span>
       </motion.div>
     </div>
   );

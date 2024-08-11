@@ -16,16 +16,16 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className=" flex items-center justify-between px-6 py-2 bg-white border-b">
+    <nav className=" flex items-center justify-start px-6 py-2 bg-white border-b">
       {/* Logo Section */}
-      <div className="flex items-center space-x-1">
+      <div className="flex items-center space-x-1 pr-8">
         <Image
           src="/Chrome-Logo.png" 
           alt="Chrome logo"
           width={70}
           height={70}
         />
-        <span className="text-2xl font-bold text-gray-700">chrome</span>
+        <span className="text-2xl font-bold text-[#5f6368]">chrome</span>
       </div>
 
       {/* Navigation Menu */}
@@ -33,18 +33,18 @@ export default function Navbar() {
         <NavigationMenuList className="flex space-x-6">
           <NavigationMenuItem>
             <Link href="/" passHref legacyBehavior>
-              <NavigationMenuLink className="text-gray-700 hover:text-blue-600">
+              <NavigationMenuLink className="font-bold text-[#5f6368] hover:text-blue-600">
                 Home
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-gray-700 hover:text-blue-600">
+            <NavigationMenuTrigger className="font-bold text-[#5f6368] hover:text-blue-600">
               The Browser by Google
             </NavigationMenuTrigger>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-gray-700 hover:text-blue-600 flex items-center">
+            <NavigationMenuTrigger className="font-bold text-[#5f6368] hover:text-blue-600 flex items-center">
               Features <span className="ml-1">▼</span>
             </NavigationMenuTrigger>
             <NavigationMenuContent>
@@ -75,7 +75,7 @@ export default function Navbar() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="text-gray-700 hover:text-blue-600 flex items-center">
+            <NavigationMenuTrigger className="font-bold text-[#5f6368] hover:text-blue-600 flex items-center">
               Support <span className="ml-1">▼</span>
             </NavigationMenuTrigger>
             <NavigationMenuContent>

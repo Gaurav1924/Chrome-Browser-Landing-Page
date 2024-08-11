@@ -9,7 +9,7 @@ const ExtendExperience: React.FC = () => {
       </div>
       <div className="w-full lg:w-1/2 mt-10 lg:mt-0 lg:pr-16">
         <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">Extend your <br/>experience</h2>
-        <p className="mt-4 text-lg text-gray-700">
+        <p className="mt-4 text-lg text-[#5f6368]">
           From shopping and entertainment to productivity, find extensions to improve your experience in the Chrome Web Store.
         </p>
         <a href="#" className="p-3 rounded-full bg-[#e8f0fe] border-xl mt-6 inline-block text-blue-600 font-bold hover:underline text-lg">
