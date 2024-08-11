@@ -12,7 +12,7 @@ const ChromeUpdates = () => {
                 <h2 className="text-[#5f6368] text-medium font-bold text-left">UPDATES </h2>
                     <h2 className="text-left text-5xl font-bold">Automatic <br />updates</h2>
                     <p className="text-[#5f6368] text-left text-xl">
-                        There's a new Chrome release every few weeks, making it easy to have the newest features and a faster, safer web browser.
+                        There `&apos s a new Chrome release every few weeks, making it easy to have the newest features and a faster, safer web browser.
                     </p>
                     <p className='text-left text-lg'><a href="#" className=" text-blue-500 text-lg font-semibold">Learn about automatic updates</a></p>
                 </div>
@@ -22,7 +22,7 @@ const ChromeUpdates = () => {
                     <p className="text-[#5f6368] text-xl text-left">
                         Chrome regularly updates with tools and features that make it faster and easier to use.
                     </p>
-                    <p className='text-lg text-left'><a href="#" className="text-blue-500 text-lg font-semibold">Learn what's new on Chrome</a></p>
+                    <p className='text-lg text-left'><a href="#" className="text-blue-500 text-lg font-semibold">Learn what `&apos s new on Chrome</a></p>
                     <div className="">
                     <Image className='absolute right-0 bottom-10' src="/Chrome-Logo.png" 
           alt="Chrome logo"
