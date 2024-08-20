@@ -45,11 +45,11 @@ function ParallaxText({ children, baseVelocity = 50 }: ParallaxProps) {
   return (
     <div className="parallax">
       <motion.div className="scroller" style={{ x }}>
-        <span><img src={images[3]} alt="" /> </span>
-        <span><img src={images[1]} alt="" /></span>
-        <span><img src={images[4]} alt="" /> </span>
-        <span><img src={images[2]} alt="" /> </span>
-        <span><img src={images[0]} alt="" /> </span>
+        <span><img src={images[3]} alt="" className="" /> </span>
+        <span><img src={images[1]} alt="" className="" /></span>
+        <span><img src={images[4]} alt="" className="" /> </span>
+        <span><img src={images[2]} alt="" className="" /> </span>
+        <span><img src={images[0]} alt="" className="" /> </span>
       </motion.div>
     </div>
   );

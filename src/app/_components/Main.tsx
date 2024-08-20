@@ -15,7 +15,7 @@ const ChromePromo: React.FC = () => {
       </div>
 
       {/* Main Heading */}
-      <h1 className="text-6xl font-extrabold text-center leading-tight">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center leading-tight">
         The browser <br /> built to be yours
       </h1>
 
@@ -24,7 +24,7 @@ const ChromePromo: React.FC = () => {
         {['Updates', 'Yours', 'Safe', 'Fast', 'By Google'].map((text) => (
           <div
             key={text}
-            className="px-5 py-2 cursor-pointer hover:bg-gray-100"
+            className="px-2 md:px-5 text-sm md:text-base py-2 cursor-pointer hover:bg-gray-100"
           >
             {text}
           </div>
