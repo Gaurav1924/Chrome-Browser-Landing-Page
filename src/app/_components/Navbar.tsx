@@ -29,7 +29,7 @@ export default function Navbar() {
       </div>
 
       {/* Navigation Menu */}
-      <NavigationMenu>
+      <NavigationMenu className="hidden md:block">
         <NavigationMenuList className="flex space-x-6">
           <NavigationMenuItem>
             <Link href="/" passHref legacyBehavior>
